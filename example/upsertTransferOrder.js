@@ -31,10 +31,10 @@ function createTO(){
 		//result.readResponseList.readResponse[0].record.binNumberList.binNumber[0].binNumber.name
 		
 		let items = await service.getList(checkItems);
-		//if(items.readResponseList.readResponse.length === to.items.length){
-		//}
-		console.log('Performing TO creation');
-		return service.upsert(to);
+		if(items.readResponseList.readResponse.length === checkItem.length){
+			console.log('Performing TO creation');
+			return service.upsert(to);
+		}
 
 	}).then(function(result, raw, soapHeader){
 		console.log('SUCESS');
@@ -47,26 +47,3 @@ function createTO(){
 		console.error(service.config.client.lastRequest);
 	});
 }
-
-
-// function validateItems(items){
-// 	service.init(true).then(async function(){
-// 		console.log('WSDL Processed');
-// 		console.log('Validate Item Hit');
-// 		return await service.getList(items);
-// 	}).then(function(result, raw, soapHeader){
-// 		console.log(result.readResponseList.readResponse[0]);
-//     console.log(result.readResponseList.readResponse[1]);
-//     console.log('Last Request:');
-//     console.log(service.config.client.lastRequest);
-//     if(result.readResponseList.readResponse.length > 0){
-//     	return true;
-//     }else{
-//     	return false;
-//     }
-// 	}).catch(function(err){
-// 		console.error(err);
-// 		console.error('Error Request:');
-// 		console.error(serbice.config.client.lastRequest);
-// 	});
-// }
