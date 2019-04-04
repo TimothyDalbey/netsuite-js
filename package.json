@@ -1,19 +1,18 @@
 {
-  "name": "netsuite-js",
-  "description": "A Node wrapper for the NetSuite SOAP API.",
-  "version": "0.0.4",
-  "homepage": "https://github.com/CrossLead/netsuite-js",
-  "bugs": "https://github.com/CrossLead/netsuite-js/issues",
+  "name": "@modaoperandi2/netsuite-js",
+  "description": "A Node wrapper for the NetSuite SOAP API (with extended features).",
+  "version": "1.0.2",
+  "homepage": "",
+  "bugs": "",
   "license": "Apache",
   "main": "lib/index.js",
   "author": {
-    "name": "Christian Yang",
-    "email": "christian.yang@crosslead.com",
-    "url": "http://crosslead.com/"
+    "name": "Terence Chen",
+    "email": "terence.chen@modoperandi.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CrossLead/netsuite-js"
+    "url": "https://github.com/TimothyDalbey/netsuite-js"
   },
   "keywords": [],
   "dependencies": {
