@@ -1,4 +1,6 @@
-# netsuite-js 
+# Forked from `netsuite-js`
+
+# netsuite-js
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
 A Node wrapper for the NetSuite SOAP API.
@@ -7,7 +9,7 @@ A Node wrapper for the NetSuite SOAP API.
 ## Install
 
 ```bash
-$ npm install --save netsuite-js
+$ npm install --save @modaoperandi2/netsuite-js
 ```
 
 
