@@ -1,7 +1,7 @@
 {
   "name": "@modaoperandi2/netsuite-js",
   "description": "A Node wrapper for the NetSuite SOAP API (with extended features).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "",
   "bugs": "",
   "license": "Apache",
