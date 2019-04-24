@@ -19,7 +19,7 @@ function createTO(){
 		to.transferLocation = "1";
 		to.externalId = "TO1234"
 		to.items = ["2468234product"];
-		to.customSourceID = "123123"
+		to.customSourceID = "898c734f-2248-4f76-a93b-3f1ca47a87ea"
 
 		const checkItems = [];
 		for(let i = 0; i < to.items.length; i++){
